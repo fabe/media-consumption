@@ -1,0 +1,27 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+@charset "utf-8";
+
+
+
+// Our variables
+$base-font-family: "Proxima Nova", "Helvetica Neue", Helvetica, Arial, sans-serif;
+$base-font-size:   16px;
+$base-line-height: 1.5;
+
+$brand-color:      #000;
+$color-blue: 	   #001E2A;
+$color-purple: 	   #3A436A;
+
+// Width of the content area
+$content-width:    500px;
+
+$on-palm:          400px;
+$on-laptop:        800px;
+
+// Import partials from `sass_dir` (defaults to `_sass`)
+@import
+        "base",
+        "layout"
+;

@@ -1,0 +1,72 @@
+/**
+ * Reset some basic elements
+ */
+body, h1, h2, h3, h4, h5, h6,
+p, blockquote, pre, hr,
+dl, dd, ol, ul, figure {
+    margin: 0;
+    padding: 0;
+}
+
+/**
+ * Basic styling
+ */
+body {
+    font-family: $base-font-family;
+    font-size: $base-font-size;
+    line-height: $base-line-height;
+    font-weight: 300;
+    -webkit-text-size-adjust: 100%;
+    background: #EFF2F7;
+    color: $color-purple;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.header__title {
+    color: $color-purple;
+    text-decoration: none;
+    font-size: 4em;
+    line-height: .9;
+    margin-bottom: 50px;
+    font-weight: 800;
+    display: block;
+}   
+
+.chart {
+    margin: 0 0 30px;
+    border-bottom: 1px solid rgba($color-purple, .2);
+    padding-bottom: 20px;
+}
+
+h4 {
+    text-transform: uppercase;
+    border-top: 1px solid rgba($color-purple, .2);
+    font-size: 16px;
+    margin-top: 30px;
+    padding-top: 30px;
+    letter-spacing: 1px;
+}
+
+.footer {
+    color: rgba($color-purple, .5);
+
+    .wrapper {
+        margin-top: 50px;
+    }
+
+    p {
+        text-align: center;
+    }
+}
+
+.wrapper {
+    max-width: $content-width;
+    padding: 0 22px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+p {
+    text-align: left;
+}
