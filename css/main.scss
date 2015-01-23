@@ -6,22 +6,24 @@
 
 
 // Our variables
-$base-font-family: "Proxima Nova", "Helvetica Neue", Helvetica, Arial, sans-serif;
-$base-font-size:   16px;
-$base-line-height: 1.5;
+$base-font-family: freight-text-pro, "FreightText", serif;
+$base-sans: freight-sans-pro, "FreightSans", serif;
+$base-font-size:   21px;
+$base-line-height: 30px;
 
-$brand-color:      #000;
-$color-blue: 	   #001E2A;
-$color-purple: 	   #3A436A;
+$color-blue: 	   #4A90E2;
+$color-green: 	   #98CC30;
+$color-grey:       #ACB7C3;
+$color-bg:         #F6F8FA;
+$color-black:      #222325;
 
 // Width of the content area
-$content-width:    500px;
+$content-width:    980px;
 
 $on-palm:          400px;
-$on-laptop:        800px;
+$on-laptop:        600px;
 
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
-        "base",
-        "layout"
+        "base"
 ;

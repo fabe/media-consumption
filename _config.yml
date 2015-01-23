@@ -1,16 +1,17 @@
 # Site settings
-title: Media Consumption
+title: Survey on Media Consumption · Results
 author: Fabian Schultz
-email: your-email@domain.com
+email: desk@fabianschultz.com
 description: > # this means to ignore newlines until "baseurl:"
   Everybody consumes, uses and sees media in a different way. 
   This survey rises ten related questions and will be a foundation
   for a student project at the University of Applied Sciences in
   Potsdam, Germany.
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://yourdomain.com" # the base hostname & protocol for your site
-twitter_username: jekyllrb
-github_username:  jekyll
+baseurl: "/media-consumption" # the subpath of your site, e.g. /blog/
+url: "https://fabianschultz.com/media-consumption" # the base hostname & protocol for your site
+twitter_username: fschultz_
+github_username:  fabe
+exclude: ['README.md', 'Gemfile.lock', 'Gemfile']
 
 # Build settings
 markdown: kramdown
