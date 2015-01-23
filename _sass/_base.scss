@@ -88,7 +88,7 @@ h4 {
     width: 48%;
     float: left;
     min-height: 350px;
-    overflow: auto;
+    overflow: hidden;
     -webkit-box-sizing: border-box !important;
     -moz-box-sizing: border-box !important;
     box-sizing: border-box !important;
@@ -200,7 +200,7 @@ h4 {
 .footer__fhp {
     text-indent: -99999px;
     display: block;
-    background: url(../img/fhp.png);
+    background: url(../img/fhp.svg);
     width: 60px;
     height: 13px;
     background-size: 60px 13px;
